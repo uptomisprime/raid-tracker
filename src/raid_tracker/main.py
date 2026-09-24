@@ -1,6 +1,2 @@
-def greet(name: str) -> str:
-    return f"Hello, {name}! RAID tracker coming soon."
-
-
-if __name__ == "__main__":
-    print(greet("PMO"))
+def greet(name: str, role: str = "PM") -> str:
+    return f"Hello, {name} ({role})! RAID tracker coming soon."
